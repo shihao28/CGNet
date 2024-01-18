@@ -22,6 +22,6 @@ Cross-Granularity Network is made up of a backbone Convolutional Neural Network 
 
 # Acknowledgement
 Thank you to the following authors for sharing their datasets
-- Yang et al.  # https://ieeexplore.ieee.org/document/7299023
-- Krause et al.  # https://ieeexplore.ieee.org/document/6755945
-- Wu et al.  # https://dl.acm.org/doi/10.1007/978-3-030-98355-0_20
+- Yang et al.: [CompCarsWeb and CompCarsSV](https://ieeexplore.ieee.org/document/7299023)
+- Krause et al.: [Stanford Cars](https://ieeexplore.ieee.org/document/6755945)
+- Wu et al.: [Car-FG3K](https://dl.acm.org/doi/10.1007/978-3-030-98355-0_20)
