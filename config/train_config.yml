@@ -1,0 +1,20 @@
+device: 'cuda'
+batch_size: 64
+epochs: 90
+learning_rate: 0.01
+warmup_epoch: 0
+warmup_lr: 1e-4
+num_classes: 431
+data_dir: 'data/CompCars/web_nature'
+use_bbox_train: False  # for MyDataset class
+use_bbox_val: False  # for MyDataset class
+model_no: 1
+use_my_model: True
+aux_logits: False  # For Inceptionv3 only
+use_mixup: False
+lr_scheduler_epoch_update: True  # Set True to update after one epoch, Set False to update after one batch
+use_cls_weight_for_loss: False
+use_batch_sampler: False
+n_img_per_label: 8  # For batchsampler
+use_dp: False  # For data parallel ops, change gpu id in code below
+dp_gpu_id: [0, 1]
